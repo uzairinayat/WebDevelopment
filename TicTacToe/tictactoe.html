@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div class="board">
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+    <div class="cell" data-index="8"></div>
+  </div>
+  <div id="scoreboard">
+    <div>Player  (X): <span id="playerXScore">0</span></div>
+    <div>Tie: <span id="tieScore">0</span></div>
+    <div>Computer (O): <span id="playerOScore">0</span></div>
+</div>
+  <div class="message">Player's turn</div>
+  <button class="button" onclick="resetGame()">New Game</button>
+  <script src="functionality.js"></script>
+</body>
+</html>
